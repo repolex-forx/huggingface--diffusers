@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/huggingface/diffusers/commit/84532a058702c74ae5d1dd6ceb05683fc5d5e768",
       "git:hexsha": "84532a058702c74ae5d1dd6ceb05683fc5d5e768",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/huggingface/diffusers/commit/0e5f2daee7b8736cf02c5e8789982432cf3e201c",
