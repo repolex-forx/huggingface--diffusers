@@ -1,0 +1,11 @@
+{
+  "org": "huggingface",
+  "repo": "diffusers",
+  "versions": [
+    {
+      "commit": "84532a058702c74ae5d1dd6ceb05683fc5d5e768",
+      "tag": "",
+      "parsed_at": "2026-11-07T22:47:33.052552+00:00"
+    }
+  ]
+}
