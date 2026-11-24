@@ -7,6 +7,7 @@
     "examples/research_projects/multi_subject_dreambooth_inpainting/train_multi_subject_dreambooth_inpainting.py",
     "examples/text_to_image/train_text_to_image_sdxl.py",
     "scripts/convert_zero123_to_diffusers.py",
+    "scripts/extract_lora_from_model.py",
     "src/diffusers/models/attention_processor.py",
     "src/diffusers/models/autoencoders/autoencoder_dc.py",
     "src/diffusers/models/autoencoders/autoencoder_kl_ltx2_audio.py",
@@ -16,6 +17,7 @@
     "src/diffusers/pipelines/pag/pipeline_pag_pixart_sigma.py",
     "tests/models/testing_utils/lora.py",
     "tests/others/test_image_processor.py",
+    "tests/pipelines/stable_diffusion/test_stable_diffusion.py",
     "tests/pipelines/stable_diffusion/test_stable_diffusion_inpaint.py",
     "tests/pipelines/test_pipelines_common.py"
   ],
@@ -25,7 +27,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz",
     "call_sites": 224040,
     "import_statements": 11803,
-    "call_targets_resolved": 5190,
+    "call_targets_resolved": 5318,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -39,5 +41,5 @@
     "extends_class_denormalized": 3454,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1841
+  "elapsed_seconds": 1823
 }
