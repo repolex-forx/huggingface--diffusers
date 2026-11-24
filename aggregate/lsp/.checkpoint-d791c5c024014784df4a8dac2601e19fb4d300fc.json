@@ -1,12 +1,15 @@
 {
   "commit_sha": "d791c5c024014784df4a8dac2601e19fb4d300fc",
   "completed_files": [
+    "examples/community/stable_diffusion_ipex.py",
     "examples/controlnet/train_controlnet_flux.py",
+    "examples/research_projects/ip_adapter/tutorial_train_plus.py",
     "examples/research_projects/multi_subject_dreambooth_inpainting/train_multi_subject_dreambooth_inpainting.py",
     "examples/text_to_image/train_text_to_image_sdxl.py",
     "src/diffusers/models/autoencoders/autoencoder_dc.py",
     "src/diffusers/models/autoencoders/autoencoder_kl_ltx2_audio.py",
-    "tests/models/testing_utils/lora.py"
+    "tests/models/testing_utils/lora.py",
+    "tests/others/test_image_processor.py"
   ],
   "completed_types": [],
   "stats": {
@@ -14,7 +17,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz",
     "call_sites": 224040,
     "import_statements": 11803,
-    "call_targets_resolved": 975,
+    "call_targets_resolved": 1190,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -28,5 +31,5 @@
     "extends_class_denormalized": 3454,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1813
+  "elapsed_seconds": 1802
 }
