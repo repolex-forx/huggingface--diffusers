@@ -1,0 +1,17 @@
+[2026-11-24T16:58:04Z] === ENRICH ITERATION 24 START | repo=huggingface/diffusers sha=d791c5c0 ===
+[2026-11-24T16:58:04Z] [iter=24] PHASE START: enrich repo=huggingface/diffusers sha=d791c5c0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d791c5c0-enrich-iter-024.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz
+[2026-11-24T16:58:04Z] [iter=24] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-24T17:07:30Z] [iter=24] AST store loaded triples=32056320 load_secs=555 mem_mb=1119 MB
+[2026-11-24T17:07:30Z] [iter=24] Step 2: Finding LSP targets mem_mb=1119 MB
+[2026-11-24T17:09:15Z] [iter=24] LSP targets found call_sites=224040 imports=11803 extends=3454 implements=0 secs=105
+[2026-11-24T17:09:20Z] [iter=24] Loaded checkpoint partial graph triples=118872
+[2026-11-24T17:09:20Z] [iter=24] Primed enclosing-def cache from persisted triples entries=682
+[2026-11-24T17:10:52Z] [iter=24] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1119 MB
+[2026-11-24T17:13:42Z] [iter=24] Position index built positions=2148594 nodes_with_types=2773246 secs=170 mem_mb=4888 MB
+[2026-11-24T17:13:42Z] [iter=24] Step 3: Starting LSP resolution mem_mb=4888 MB already_completed_types=[] already_completed_files=17
+[2026-11-24T17:13:42Z] [iter=24] Resolving target type target_type=call_site count=224040
+[2026-11-24T17:13:44Z] [iter=24] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=0 resolved=0 errors=0 current=tests/pipelines/stable_diffusion/test_stable_diffusion.py
+[2026-11-24T17:28:46Z] [iter=24] CHECKPOINT TRIGGERED elapsed_min=30.7 files_completed=17 new_files_this_iter=0 mem_mb=4898 MB
+[2026-11-24T17:28:46Z] [iter=24] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz triples=120253
+[2026-11-24T17:28:47Z] [iter=24] Checkpoint written, exiting with code 7
+[2026-11-24T17:28:47Z] [iter=24] PHASE END: enrich (checkpointed) elapsed_s=1842 elapsed_min=30.7 files_completed=17
