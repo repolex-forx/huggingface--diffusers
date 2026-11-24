@@ -1,0 +1,28 @@
+{
+  "commit_sha": "ad3a3afc3a4d3068bbb12f58129c855087ffc6d6",
+  "completed_files": [
+    "src/diffusers/pipelines/hunyuandit/pipeline_hunyuandit.py",
+    "tests/schedulers/test_scheduler_ddim.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/diffusers/lsp/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6.nq.gz",
+    "call_sites": 224128,
+    "import_statements": 11803,
+    "call_targets_resolved": 391,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 3458,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 16542,
+    "import_symbols_denormalized": 31577,
+    "extends_class_denormalized": 3458,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1808
+}
