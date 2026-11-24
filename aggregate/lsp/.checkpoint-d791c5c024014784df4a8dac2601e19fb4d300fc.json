@@ -1,6 +1,7 @@
 {
   "commit_sha": "d791c5c024014784df4a8dac2601e19fb4d300fc",
   "completed_files": [
+    "examples/community/regional_prompting_stable_diffusion.py",
     "examples/community/stable_diffusion_ipex.py",
     "examples/controlnet/train_controlnet_flux.py",
     "examples/dreambooth/test_dreambooth.py",
@@ -33,7 +34,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz",
     "call_sites": 224040,
     "import_statements": 11803,
-    "call_targets_resolved": 6716,
+    "call_targets_resolved": 6972,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -47,5 +48,5 @@
     "extends_class_denormalized": 3454,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1812
+  "elapsed_seconds": 1815
 }
