@@ -1,0 +1,28 @@
+{
+  "commit_sha": "d791c5c024014784df4a8dac2601e19fb4d300fc",
+  "completed_files": [
+    "src/diffusers/models/autoencoders/autoencoder_dc.py",
+    "tests/models/testing_utils/lora.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/diffusers/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz",
+    "call_sites": 224040,
+    "import_statements": 11803,
+    "call_targets_resolved": 328,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 3454,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 16543,
+    "import_symbols_denormalized": 31573,
+    "extends_class_denormalized": 3454,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1830
+}
