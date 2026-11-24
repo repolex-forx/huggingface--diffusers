@@ -1,7 +1,10 @@
 {
   "commit_sha": "ad3a3afc3a4d3068bbb12f58129c855087ffc6d6",
   "completed_files": [
+    "examples/community/pipeline_stable_diffusion_xl_instandid_img2img.py",
+    "examples/community/stable_diffusion_controlnet_img2img.py",
     "src/diffusers/pipelines/hunyuandit/pipeline_hunyuandit.py",
+    "src/diffusers/pipelines/pixart_alpha/pipeline_pixart_sigma.py",
     "tests/schedulers/test_scheduler_ddim.py"
   ],
   "completed_types": [],
@@ -10,7 +13,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6.nq.gz",
     "call_sites": 224128,
     "import_statements": 11803,
-    "call_targets_resolved": 391,
+    "call_targets_resolved": 898,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -24,5 +27,5 @@
     "extends_class_denormalized": 3458,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1808
+  "elapsed_seconds": 1831
 }
