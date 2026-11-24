@@ -3248,6 +3248,14 @@
         "blob/e910932f33d93f0b2f8919227eda9042687e323f.nq.gz",
         "blob/d108deb9c5dacc013e2edd80f5ba1fb1ff7fa0eb.nq.gz",
         "blob/640bd31feeef563613b5ffcc825351ac737ea0f0.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-001.nq.gz",
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-002.nq.gz",
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-003.nq.gz",
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-004.nq.gz",
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-005.nq.gz",
+        "aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/chunk-006.nq.gz"
       ]
     }
   ],

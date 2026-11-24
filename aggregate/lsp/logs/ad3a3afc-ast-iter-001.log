@@ -1,0 +1,7 @@
+[2026-11-23T23:32:30Z] === AST ITERATION 1 START | repo=huggingface/diffusers sha=ad3a3afc ===
+[2026-11-23T23:32:30Z] [iter=1] PHASE START: ast repo=huggingface/diffusers sha=ad3a3afc
+[2026-11-23T23:32:30Z] [iter=1] Building AST aggregate chunks
+[2026-11-24T00:09:17Z] [iter=1] AST chunks built count=6 triples=32069219
+[2026-11-24T00:09:17Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/ad3a3afc3a4d3068bbb12f58129c855087ffc6d6/.complete
+[2026-11-24T00:09:17Z] [iter=1] PHASE END: ast elapsed_s=2207 elapsed_min=36.8
+[2026-11-24T00:09:17Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
