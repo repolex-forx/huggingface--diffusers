@@ -1,0 +1,18 @@
+[2026-11-25T22:36:51Z] === ENRICH ITERATION 10 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-25T22:36:51Z] [iter=10] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-25T22:36:51Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-25T22:43:09Z] [iter=10] AST store loaded triples=27472624 load_secs=368 mem_mb=1099 MB
+[2026-11-25T22:43:09Z] [iter=10] Step 2: Finding LSP targets mem_mb=1099 MB
+[2026-11-25T22:44:57Z] [iter=10] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=108
+[2026-11-25T22:45:02Z] [iter=10] Loaded checkpoint partial graph triples=90045
+[2026-11-25T22:45:02Z] [iter=10] Primed enclosing-def cache from persisted triples entries=407
+[2026-11-25T22:46:32Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1099 MB
+[2026-11-25T22:50:07Z] [iter=10] Position index built positions=1839752 nodes_with_types=2373415 secs=215 mem_mb=4185 MB
+[2026-11-25T22:50:07Z] [iter=10] Step 3: Starting LSP resolution mem_mb=4185 MB already_completed_types=[] already_completed_files=11
+[2026-11-25T22:50:07Z] [iter=10] Resolving target type target_type=call_site count=193283
+[2026-11-25T22:50:09Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=0 resolved=0 errors=0 current=examples/community/pipeline_faithdiff_stable_diffusion_xl.py
+[2026-11-25T22:52:41Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=1 resolved=71 errors=0 current=src/diffusers/models/transformers/transformer_hunyuan_video.py
+[2026-11-25T23:07:25Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=12 new_files_this_iter=1 mem_mb=4193 MB
+[2026-11-25T23:07:25Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=92089
+[2026-11-25T23:07:26Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-11-25T23:07:26Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=1835 elapsed_min=30.6 files_completed=12
