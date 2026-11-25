@@ -25,10 +25,12 @@
     "src/diffusers/pipelines/controlnet_xs/pipeline_controlnet_xs.py",
     "src/diffusers/pipelines/pag/pipeline_pag_pixart_sigma.py",
     "src/diffusers/pipelines/sana/pipeline_sana_controlnet.py",
+    "src/diffusers/pipelines/stable_diffusion_sag/pipeline_stable_diffusion_sag.py",
     "tests/models/test_modeling_common.py",
     "tests/models/testing_utils/lora.py",
     "tests/models/testing_utils/quantization.py",
     "tests/others/test_image_processor.py",
+    "tests/pipelines/hunyuandit/test_hunyuan_dit.py",
     "tests/pipelines/stable_diffusion/test_stable_diffusion.py",
     "tests/pipelines/stable_diffusion/test_stable_diffusion_inpaint.py",
     "tests/pipelines/test_pipelines_auto.py",
@@ -41,7 +43,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/d791c5c024014784df4a8dac2601e19fb4d300fc.nq.gz",
     "call_sites": 224040,
     "import_statements": 11803,
-    "call_targets_resolved": 9063,
+    "call_targets_resolved": 9224,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -55,5 +57,5 @@
     "extends_class_denormalized": 3454,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1836
+  "elapsed_seconds": 1860
 }
