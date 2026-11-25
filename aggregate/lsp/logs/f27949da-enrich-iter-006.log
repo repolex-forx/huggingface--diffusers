@@ -1,0 +1,17 @@
+[2026-11-25T20:17:01Z] === ENRICH ITERATION 6 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-25T20:17:01Z] [iter=6] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-25T20:17:01Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T20:23:21Z] [iter=6] AST store loaded triples=27472624 load_secs=369 mem_mb=1097 MB
+[2026-11-25T20:23:21Z] [iter=6] Step 2: Finding LSP targets mem_mb=1097 MB
+[2026-11-25T20:25:04Z] [iter=6] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=104
+[2026-11-25T20:25:08Z] [iter=6] Loaded checkpoint partial graph triples=74895
+[2026-11-25T20:25:08Z] [iter=6] Primed enclosing-def cache from persisted triples entries=120
+[2026-11-25T20:26:35Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1097 MB
+[2026-11-25T20:30:02Z] [iter=6] Position index built positions=1839752 nodes_with_types=2373415 secs=208 mem_mb=4223 MB
+[2026-11-25T20:30:02Z] [iter=6] Step 3: Starting LSP resolution mem_mb=4223 MB already_completed_types=[] already_completed_files=3
+[2026-11-25T20:30:02Z] [iter=6] Resolving target type target_type=call_site count=193283
+[2026-11-25T20:30:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=0 resolved=0 errors=0 current=examples/dreambooth/train_dreambooth_flux.py
+[2026-11-25T20:47:47Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=30.8 files_completed=3 new_files_this_iter=0 mem_mb=4235 MB
+[2026-11-25T20:47:47Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=76115
+[2026-11-25T20:47:48Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-11-25T20:47:48Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=1846 elapsed_min=30.8 files_completed=3
