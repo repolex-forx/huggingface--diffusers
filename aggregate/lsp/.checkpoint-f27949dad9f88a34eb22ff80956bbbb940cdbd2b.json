@@ -6,6 +6,7 @@
     "examples/community/pipeline_faithdiff_stable_diffusion_xl.py",
     "examples/dreambooth/train_dreambooth_flux.py",
     "src/diffusers/models/transformers/transformer_cogview3plus.py",
+    "src/diffusers/models/transformers/transformer_hunyuan_video.py",
     "src/diffusers/models/unets/uvit_2d.py",
     "src/diffusers/pipelines/cogview3/pipeline_cogview3plus.py",
     "src/diffusers/pipelines/controlnet/pipeline_controlnet_union_inpaint_sd_xl.py",
@@ -20,7 +21,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz",
     "call_sites": 193283,
     "import_statements": 10960,
-    "call_targets_resolved": 2789,
+    "call_targets_resolved": 3358,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -34,5 +35,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1834
+  "elapsed_seconds": 1805
 }
