@@ -4,13 +4,16 @@
     "examples/advanced_diffusion_training/train_dreambooth_lora_flux_advanced.py",
     "examples/community/fresco_v2v.py",
     "examples/community/marigold_depth_estimation.py",
+    "examples/community/masked_stable_diffusion_xl_img2img.py",
     "examples/community/pipeline_flux_differential_img2img.py",
+    "examples/dreambooth/train_dreambooth_lora_flux.py",
     "examples/research_projects/scheduled_huber_loss_training/dreambooth/train_dreambooth_lora_sdxl.py",
     "scripts/convert_if.py",
     "src/diffusers/models/controlnets/controlnet.py",
     "src/diffusers/models/embeddings.py",
     "src/diffusers/pipelines/stable_diffusion_sag/pipeline_stable_diffusion_sag.py",
     "tests/pipelines/ip_adapters/test_ip_adapter_stable_diffusion.py",
+    "tests/pipelines/pag/test_pag_sd_img2img.py",
     "tests/single_file/test_model_motion_adapter_single_file.py",
     "tests/single_file/test_stable_diffusion_controlnet_img2img_single_file.py"
   ],
@@ -20,7 +23,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b71269675ec1b85193107a691dd35c308e46f0a5.nq.gz",
     "call_sites": 193290,
     "import_statements": 10960,
-    "call_targets_resolved": 2597,
+    "call_targets_resolved": 2819,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -34,5 +37,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1838
+  "elapsed_seconds": 1905
 }
