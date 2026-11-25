@@ -1,0 +1,15 @@
+[2026-11-25T05:55:16Z] === ENRICH ITERATION 1 START | repo=huggingface/diffusers sha=b7126967 ===
+[2026-11-25T05:55:16Z] [iter=1] PHASE START: enrich repo=huggingface/diffusers sha=b7126967 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b7126967-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b71269675ec1b85193107a691dd35c308e46f0a5.nq.gz
+[2026-11-25T05:55:16Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T06:03:14Z] [iter=1] AST store loaded triples=27473432 load_secs=469 mem_mb=1151 MB
+[2026-11-25T06:03:14Z] [iter=1] Step 2: Finding LSP targets mem_mb=1151 MB
+[2026-11-25T06:04:38Z] [iter=1] LSP targets found call_sites=193290 imports=10960 extends=2621 implements=0 secs=84
+[2026-11-25T06:05:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1151 MB
+[2026-11-25T06:08:09Z] [iter=1] Position index built positions=1839820 nodes_with_types=2373506 secs=140 mem_mb=4318 MB
+[2026-11-25T06:08:09Z] [iter=1] Step 3: Starting LSP resolution mem_mb=4318 MB already_completed_types=[] already_completed_files=0
+[2026-11-25T06:08:09Z] [iter=1] Resolving target type target_type=call_site count=193290
+[2026-11-25T06:08:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=0 resolved=0 errors=0 current=src/diffusers/models/embeddings.py
+[2026-11-25T06:25:20Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=0 new_files_this_iter=0 mem_mb=4326 MB
+[2026-11-25T06:25:20Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b71269675ec1b85193107a691dd35c308e46f0a5.nq.gz triples=68354
+[2026-11-25T06:25:21Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-25T06:25:21Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1803 elapsed_min=30.1 files_completed=0
