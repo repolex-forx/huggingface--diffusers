@@ -5,9 +5,12 @@
     "examples/community/ip_adapter_face_id.py",
     "examples/dreambooth/train_dreambooth_flux.py",
     "src/diffusers/models/transformers/transformer_cogview3plus.py",
+    "src/diffusers/models/unets/uvit_2d.py",
+    "src/diffusers/pipelines/cogview3/pipeline_cogview3plus.py",
     "src/diffusers/pipelines/controlnet/pipeline_controlnet_union_inpaint_sd_xl.py",
     "src/diffusers/pipelines/kolors/text_encoder.py",
     "tests/pipelines/controlnet/test_controlnet_sdxl.py",
+    "tests/pipelines/stable_diffusion/test_stable_diffusion_img2img.py",
     "tests/pipelines/test_pipelines_common.py"
   ],
   "completed_types": [],
@@ -16,7 +19,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz",
     "call_sites": 193283,
     "import_statements": 10960,
-    "call_targets_resolved": 2014,
+    "call_targets_resolved": 2586,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -30,5 +33,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1800
+  "elapsed_seconds": 1808
 }
