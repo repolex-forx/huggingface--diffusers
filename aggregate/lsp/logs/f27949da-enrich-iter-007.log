@@ -1,0 +1,20 @@
+[2026-11-25T20:50:44Z] === ENRICH ITERATION 7 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-25T20:50:44Z] [iter=7] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-25T20:50:44Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T20:59:43Z] [iter=7] AST store loaded triples=27472624 load_secs=531 mem_mb=1114 MB
+[2026-11-25T20:59:43Z] [iter=7] Step 2: Finding LSP targets mem_mb=1114 MB
+[2026-11-25T21:00:55Z] [iter=7] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=73
+[2026-11-25T21:00:58Z] [iter=7] Loaded checkpoint partial graph triples=76115
+[2026-11-25T21:00:58Z] [iter=7] Primed enclosing-def cache from persisted triples entries=137
+[2026-11-25T21:02:00Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1114 MB
+[2026-11-25T21:04:16Z] [iter=7] Position index built positions=1839752 nodes_with_types=2373415 secs=136 mem_mb=4252 MB
+[2026-11-25T21:04:16Z] [iter=7] Step 3: Starting LSP resolution mem_mb=4252 MB already_completed_types=[] already_completed_files=3
+[2026-11-25T21:04:16Z] [iter=7] Resolving target type target_type=call_site count=193283
+[2026-11-25T21:04:18Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=0 resolved=0 errors=0 current=examples/dreambooth/train_dreambooth_flux.py
+[2026-11-25T21:09:28Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=1 resolved=38 errors=0 current=src/diffusers/models/transformers/transformer_cogview3plus.py
+[2026-11-25T21:12:38Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=2 resolved=94 errors=0 current=examples/community/ip_adapter_face_id.py
+[2026-11-25T21:14:57Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=3 resolved=264 errors=0 current=src/diffusers/pipelines/controlnet/pipeline_controlnet_union_inpaint_sd_xl.py
+[2026-11-25T21:20:57Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=6 new_files_this_iter=3 mem_mb=4260 MB
+[2026-11-25T21:20:57Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=81081
+[2026-11-25T21:20:58Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-25T21:20:58Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1813 elapsed_min=30.2 files_completed=6
