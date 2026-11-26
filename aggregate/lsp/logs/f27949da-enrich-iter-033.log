@@ -1,0 +1,18 @@
+[2026-11-26T11:32:26Z] === ENRICH ITERATION 33 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-26T11:32:26Z] [iter=33] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-033.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-26T11:32:26Z] [iter=33] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-26T11:40:13Z] [iter=33] AST store loaded triples=27472624 load_secs=459 mem_mb=1043 MB
+[2026-11-26T11:40:13Z] [iter=33] Step 2: Finding LSP targets mem_mb=1043 MB
+[2026-11-26T11:41:42Z] [iter=33] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=89
+[2026-11-26T11:41:49Z] [iter=33] Loaded checkpoint partial graph triples=165689
+[2026-11-26T11:41:49Z] [iter=33] Primed enclosing-def cache from persisted triples entries=1566
+[2026-11-26T11:43:00Z] [iter=33] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1043 MB
+[2026-11-26T11:45:21Z] [iter=33] Position index built positions=1839752 nodes_with_types=2373415 secs=140 mem_mb=4367 MB
+[2026-11-26T11:45:21Z] [iter=33] Step 3: Starting LSP resolution mem_mb=4367 MB already_completed_types=[] already_completed_files=56
+[2026-11-26T11:45:21Z] [iter=33] Resolving target type target_type=call_site count=193283
+[2026-11-26T11:45:23Z] [iter=33] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=0 resolved=0 errors=0 current=examples/research_projects/scheduled_huber_loss_training/text_to_image/train_text_to_image.py
+[2026-11-26T11:50:38Z] [iter=33] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=1 resolved=176 errors=0 current=scripts/convert_original_audioldm2_to_diffusers.py
+[2026-11-26T12:03:03Z] [iter=33] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=57 new_files_this_iter=1 mem_mb=4374 MB
+[2026-11-26T12:03:03Z] [iter=33] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=168578
+[2026-11-26T12:03:05Z] [iter=33] Checkpoint written, exiting with code 7
+[2026-11-26T12:03:05Z] [iter=33] PHASE END: enrich (checkpointed) elapsed_s=1837 elapsed_min=30.6 files_completed=57
