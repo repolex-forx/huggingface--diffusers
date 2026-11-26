@@ -1,0 +1,20 @@
+[2026-11-26T02:32:53Z] === ENRICH ITERATION 17 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-26T02:32:53Z] [iter=17] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-017.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-26T02:32:53Z] [iter=17] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T02:39:10Z] [iter=17] AST store loaded triples=27472624 load_secs=367 mem_mb=1111 MB
+[2026-11-26T02:39:10Z] [iter=17] Step 2: Finding LSP targets mem_mb=1111 MB
+[2026-11-26T02:40:58Z] [iter=17] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=108
+[2026-11-26T02:41:05Z] [iter=17] Loaded checkpoint partial graph triples=113241
+[2026-11-26T02:41:05Z] [iter=17] Primed enclosing-def cache from persisted triples entries=780
+[2026-11-26T02:42:34Z] [iter=17] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1111 MB
+[2026-11-26T02:46:08Z] [iter=17] Position index built positions=1839752 nodes_with_types=2373415 secs=213 mem_mb=4303 MB
+[2026-11-26T02:46:08Z] [iter=17] Step 3: Starting LSP resolution mem_mb=4303 MB already_completed_types=[] already_completed_files=25
+[2026-11-26T02:46:08Z] [iter=17] Resolving target type target_type=call_site count=193283
+[2026-11-26T02:46:10Z] [iter=17] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=0 resolved=0 errors=0 current=src/diffusers/pipelines/stable_diffusion_sag/pipeline_stable_diffusion_sag.py
+[2026-11-26T02:48:03Z] [iter=17] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=1 resolved=40 errors=0 current=src/diffusers/models/transformers/auraflow_transformer_2d.py
+[2026-11-26T02:58:43Z] [iter=17] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=2 resolved=172 errors=0 current=src/diffusers/schedulers/scheduling_tcd.py
+[2026-11-26T03:00:26Z] [iter=17] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=3 resolved=282 errors=0 current=tests/pipelines/pag/test_pag_animatediff.py
+[2026-11-26T03:03:26Z] [iter=17] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=28 new_files_this_iter=3 mem_mb=4313 MB
+[2026-11-26T03:03:26Z] [iter=17] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=115945
+[2026-11-26T03:03:27Z] [iter=17] Checkpoint written, exiting with code 7
+[2026-11-26T03:03:27Z] [iter=17] PHASE END: enrich (checkpointed) elapsed_s=1833 elapsed_min=30.6 files_completed=28
