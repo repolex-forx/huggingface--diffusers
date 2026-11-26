@@ -1,0 +1,21 @@
+[2026-11-26T12:06:11Z] === ENRICH ITERATION 34 START | repo=huggingface/diffusers sha=f27949da ===
+[2026-11-26T12:06:11Z] [iter=34] PHASE START: enrich repo=huggingface/diffusers sha=f27949da runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f27949da-enrich-iter-034.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz
+[2026-11-26T12:06:11Z] [iter=34] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T12:13:40Z] [iter=34] AST store loaded triples=27472624 load_secs=443 mem_mb=1122 MB
+[2026-11-26T12:13:40Z] [iter=34] Step 2: Finding LSP targets mem_mb=1122 MB
+[2026-11-26T12:15:07Z] [iter=34] LSP targets found call_sites=193283 imports=10960 extends=2621 implements=0 secs=87
+[2026-11-26T12:15:14Z] [iter=34] Loaded checkpoint partial graph triples=168578
+[2026-11-26T12:15:14Z] [iter=34] Primed enclosing-def cache from persisted triples entries=1592
+[2026-11-26T12:16:20Z] [iter=34] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1122 MB
+[2026-11-26T12:18:29Z] [iter=34] Position index built positions=1839752 nodes_with_types=2373415 secs=129 mem_mb=4458 MB
+[2026-11-26T12:18:29Z] [iter=34] Step 3: Starting LSP resolution mem_mb=4458 MB already_completed_types=[] already_completed_files=57
+[2026-11-26T12:18:29Z] [iter=34] Resolving target type target_type=call_site count=193283
+[2026-11-26T12:18:31Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=0 resolved=0 errors=0 current=scripts/convert_original_audioldm2_to_diffusers.py
+[2026-11-26T12:20:46Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=1 resolved=19 errors=0 current=tests/pipelines/omnigen/test_pipeline_omnigen.py
+[2026-11-26T12:22:46Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=2 resolved=44 errors=0 current=tests/models/autoencoders/test_models_consistency_decoder_vae.py
+[2026-11-26T12:24:37Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=3 resolved=120 errors=0 current=src/diffusers/pipelines/omnigen/pipeline_omnigen.py
+[2026-11-26T12:28:36Z] [iter=34] HEARTBEAT target_type=call_site elapsed_min=22.4 files_done=4 resolved=172 errors=0 current=examples/text_to_image/train_text_to_image_lora_sdxl.py
+[2026-11-26T12:37:01Z] [iter=34] CHECKPOINT TRIGGERED elapsed_min=30.8 files_completed=61 new_files_this_iter=4 mem_mb=4459 MB
+[2026-11-26T12:37:01Z] [iter=34] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz triples=170821
+[2026-11-26T12:37:02Z] [iter=34] Checkpoint written, exiting with code 7
+[2026-11-26T12:37:02Z] [iter=34] PHASE END: enrich (checkpointed) elapsed_s=1850 elapsed_min=30.8 files_completed=61
