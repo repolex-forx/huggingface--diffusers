@@ -17,6 +17,7 @@
     "src/diffusers/models/autoencoders/autoencoder_kl_hunyuan_video.py",
     "src/diffusers/models/transformers/auraflow_transformer_2d.py",
     "src/diffusers/models/transformers/transformer_cogview3plus.py",
+    "src/diffusers/models/transformers/transformer_flux.py",
     "src/diffusers/models/transformers/transformer_hunyuan_video.py",
     "src/diffusers/models/unets/uvit_2d.py",
     "src/diffusers/pipelines/animatediff/pipeline_animatediff_controlnet.py",
@@ -28,6 +29,7 @@
     "src/diffusers/pipelines/latent_consistency_models/pipeline_latent_consistency_text2img.py",
     "src/diffusers/pipelines/pag/pipeline_pag_controlnet_sd.py",
     "src/diffusers/pipelines/pag/pipeline_pag_controlnet_sd_inpaint.py",
+    "src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_img2img.py",
     "src/diffusers/pipelines/stable_diffusion/pipeline_stable_unclip_img2img.py",
     "src/diffusers/pipelines/stable_diffusion_sag/pipeline_stable_diffusion_sag.py",
     "src/diffusers/pipelines/t2i_adapter/pipeline_stable_diffusion_adapter.py",
@@ -51,7 +53,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz",
     "call_sites": 193283,
     "import_statements": 10960,
-    "call_targets_resolved": 8147,
+    "call_targets_resolved": 8544,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -65,5 +67,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1831
 }
