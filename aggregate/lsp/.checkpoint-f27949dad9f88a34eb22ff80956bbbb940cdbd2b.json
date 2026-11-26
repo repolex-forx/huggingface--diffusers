@@ -34,6 +34,7 @@
     "src/diffusers/pipelines/pag/pipeline_pag_controlnet_sd_inpaint.py",
     "src/diffusers/pipelines/stable_diffusion/pipeline_onnx_stable_diffusion_upscale.py",
     "src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_img2img.py",
+    "src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_latent_upscale.py",
     "src/diffusers/pipelines/stable_diffusion/pipeline_stable_unclip_img2img.py",
     "src/diffusers/pipelines/stable_diffusion_sag/pipeline_stable_diffusion_sag.py",
     "src/diffusers/pipelines/t2i_adapter/pipeline_stable_diffusion_adapter.py",
@@ -42,6 +43,7 @@
     "src/diffusers/schedulers/scheduling_tcd.py",
     "tests/models/test_modeling_common.py",
     "tests/pipelines/allegro/test_allegro.py",
+    "tests/pipelines/animatediff/test_animatediff_controlnet.py",
     "tests/pipelines/controlnet/test_controlnet_sdxl.py",
     "tests/pipelines/controlnet/test_flax_controlnet.py",
     "tests/pipelines/pag/test_pag_animatediff.py",
@@ -58,7 +60,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz",
     "call_sites": 193283,
     "import_statements": 10960,
-    "call_targets_resolved": 10156,
+    "call_targets_resolved": 10350,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -72,5 +74,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1813
 }
