@@ -5,6 +5,7 @@
     "examples/community/ip_adapter_face_id.py",
     "examples/community/pipeline_faithdiff_stable_diffusion_xl.py",
     "examples/dreambooth/train_dreambooth_flux.py",
+    "examples/dreambooth/train_dreambooth_lora_sd3.py",
     "scripts/convert_dit_to_diffusers.py",
     "scripts/convert_kandinsky_to_diffusers.py",
     "src/diffusers/models/transformers/auraflow_transformer_2d.py",
@@ -15,6 +16,7 @@
     "src/diffusers/pipelines/cogview3/pipeline_cogview3plus.py",
     "src/diffusers/pipelines/controlnet/pipeline_controlnet_union_inpaint_sd_xl.py",
     "src/diffusers/pipelines/flux/pipeline_flux_control.py",
+    "src/diffusers/pipelines/flux/pipeline_flux_img2img.py",
     "src/diffusers/pipelines/kolors/text_encoder.py",
     "src/diffusers/pipelines/pag/pipeline_pag_controlnet_sd.py",
     "src/diffusers/pipelines/pag/pipeline_pag_controlnet_sd_inpaint.py",
@@ -31,7 +33,8 @@
     "tests/pipelines/pag/test_pag_sd.py",
     "tests/pipelines/stable_diffusion/test_stable_diffusion_img2img.py",
     "tests/pipelines/stable_diffusion_xl/test_stable_diffusion_xl_img2img.py",
-    "tests/pipelines/test_pipelines_common.py"
+    "tests/pipelines/test_pipelines_common.py",
+    "tests/quantization/quanto/test_quanto.py"
   ],
   "completed_types": [],
   "stats": {
@@ -39,7 +42,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/f27949dad9f88a34eb22ff80956bbbb940cdbd2b.nq.gz",
     "call_sites": 193283,
     "import_statements": 10960,
-    "call_targets_resolved": 5931,
+    "call_targets_resolved": 6211,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -53,5 +56,5 @@
     "extends_class_denormalized": 2621,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1813
+  "elapsed_seconds": 1822
 }
